@@ -4,5 +4,4 @@ apt-get install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadlin
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
 git clone https://github.com/pyenv/pyenv.git ./
-cat ./pyenv/pyenv.config >> ~/.bashrc
-
+cat .\dev-tools\pyenv\pyenv.config >> ~/.bashrc
